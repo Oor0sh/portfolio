@@ -1,0 +1,229 @@
+@media screen and (max-width: 1025px){
+    #container1{
+        #info{
+            padding: 35px;
+            font-size: 15px;
+            #authorInfo{
+                width: 60%;
+            }
+            #authorImg{
+                width: 30%;
+                height: 200px;
+            }
+        }
+    }
+    .container{
+        .coat{
+            .skills{
+                i{
+                    font-size: 130px;
+                }
+            }
+        .project{
+            width: 90%;
+            #project1{
+                max-width: 100%;
+                height: 170px;
+            }
+            #project2{
+                max-width: 100%;
+                height: 170px;
+            }
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 811px){ 
+    #container1{
+           font-size: 15px;
+           #info{
+               width: 70%;
+               display: flex;
+               justify-content: space-between;
+               padding: 30px;
+               #authorInfo{
+                width: 50%;
+               }
+               #authorImg{
+                   width: 40%;
+                   height: 270px;
+               }
+           }
+        }
+    .container{
+        .coat{
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            .skills{
+            i{
+                font-size: 120px;
+            }
+        }
+        .project{
+            width: 90%;
+            #project1{
+                max-width: 100%;
+                height: 290px;
+            }
+            #project2{
+                max-width: 100%;
+                height: 290px;
+            }
+        }
+        }
+    }
+    footer{
+        padding: 2px;
+        border: 2px solid rgba(0,0,50,0.7);
+    }
+}
+
+@media screen and (max-width: 601px){
+    header{
+        position: relative;
+        .centerContent{
+            display: block;
+            text-align: center;
+        nav{  
+            margin: 10px;
+            ul{
+                width: 100%;
+                li{
+                    width: 100%;
+                    border: 1px solid #bbbbbb;
+                    padding: 5px;
+                    margin: 2px;
+                }
+            }
+        }
+      }  
+    }
+    
+    #container1{
+        font-size: 12px;
+        padding: 10px;
+        #info{
+            width: 100%;
+            display: flex;
+            padding: 60px;
+            #authorInfo{
+             width: 80%;
+            }
+            #authorImg{
+                width: 30%;
+                height: 150px;
+            }
+        }
+     }
+ .container{
+     .coat{
+         flex-direction: row;
+         flex-wrap: wrap;
+         width: 100%;
+         .skills{
+            margin: 25px;
+         i{ 
+            font-size: 120px;
+         }
+        }
+     .project{
+         width: 100%;
+         padding: 0px;
+         margin: 10px;
+         #project1{
+             max-width: 100%;
+             height: 230px;
+             background-size: cover;
+         }
+         #project2{
+             max-width: 100%;
+             height: 230px;
+             background-size: cover;
+     }
+    }
+     .socials{
+        p{
+            padding: 5px;
+        }
+    }
+    }
+ }
+ footer{
+     padding: 1px;
+     border: 1px solid rgba(0,0,50,0.7);
+ }
+}
+
+@media screen and (max-width: 451px){
+    header{
+        .centerContent{
+        nav{
+            
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+        }
+      }  
+    }
+    
+    #container1{
+        font-size: 14px;
+        padding: 10px;
+        #info{
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 20px;
+            #authorInfo{
+             width: 100%;
+            }
+            #authorImg{
+                margin-top: 10px;
+                align-self: center;
+                width: 40%;
+                height: 150px;
+            }
+        }
+     }
+ .container{
+     .coat{
+         flex-direction: column;
+         flex-wrap: wrap;
+         width: 100%;
+         .skills{
+            margin: 10px;
+            margin-top: 20px;
+
+         i{ 
+            font-size: 120px;
+         }
+     }
+     .project{
+         width: 100%;
+         padding: 0px;
+         margin: 10px;
+         #project1{
+             max-width: 100%;
+             height: 140px;
+             background-size: cover;
+         }
+         #project2{
+             max-width: 100%;
+             height: 140px;
+             background-size: cover;
+     }
+    }
+     .socials{
+        p{
+            padding: 5px;
+        }
+    }
+    }
+ }
+}
